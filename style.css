@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-image:url("bgimg.jpg")
+    
+}
+.container{
+    background-color:#ffff;
+    padding: 3rem;
+    border-radius: 2.5rem;
+    min-height: 45vh;
+    min-width: 40vh;
+}
+form{
+    margin: 2rem 0 2rem 0;
+}
+form button,input,select{
+    width: 100%;
+    border-radius: 0.75rem;
+    border: none;
+
+}
+form input {
+    padding: 0.35rem;
+    font-size: 1rem;
+    border: 2px solid lightgrey;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.select-container img {
+max-width: 3rem;
+}
+.select-container {
+    padding: 0.15rem;
+    border-radius: 1rem;
+    display: flex;
+    border: 1px solid lightgray;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    background-color: #ffff;
+   font-size: 1rem;
+    height: 2rem;
+}
+.dropdown i {
+font-size: 2rem;
+margin-top :2rem;
+}
+.msg {
+margin-top :3rem;
+font-size: 1.35rem;
+
+}
+form button{
+    margin-top:3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    background-size: cover;
+    background-image:url("bgimg.jpg");
+    cursor: pointer;
+    border: 2px solid gray;
+}
+#vamshi{
+    margin-top: 2rem;
+    margin-left:11rem;
+
+}
+h2{
+    margin-left: 3.5rem;
+}
+
+@media screen and (max-width:600px){
+    .container {
+        height: 49vh;
+       
+        padding: 1rem;
+        border-radius: 1rem;
+        border: 2px solid black;
+    }
+}
